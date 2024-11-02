@@ -30,7 +30,7 @@ export default async function UserProfile({
   params: { id: string };
 }) {
   // `params`をawaitしてから使用
-  const { id } = await params;
+  const { id } = params;
 
   let profile: Profile;
   let posts: PostType[];
